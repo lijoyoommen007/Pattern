@@ -1,6 +1,7 @@
 const canvas = document.getElementById("canvas");
 const context = canvas.getContext("2d");
 
+
 let radius = -200;
 let phase = 1;
 
@@ -41,7 +42,7 @@ function animate() {
     context.moveTo(canvas.width / 2 + x1, canvas.height / 2 + y1);
     context.lineTo(canvas.width / 2 + x2, canvas.height / 2 + y2);
     context.strokeStyle = "white";
-    context.lineWidth = 3.5;
+    context.lineWidth = 3;
     context.stroke();
   }
   
